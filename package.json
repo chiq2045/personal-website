@@ -1,0 +1,37 @@
+{
+  "name": "personal-website",
+  "version": "0.1.0",
+  "description": "A website to showcase my personal projects",
+  "main": "website.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiq2045/personal-website.git"
+  },
+  "keywords": [
+    "koa"
+  ],
+  "author": "Charles Oroko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chiq2045/personal-website/issues"
+  },
+  "homepage": "https://github.com/chiq2045/personal-website#readme",
+  "dependencies": {
+    "koa": "^2.8.2",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-koa": "^2.0.2",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "stylelint": "^11.0.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
