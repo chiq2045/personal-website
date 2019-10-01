@@ -1,9 +1,8 @@
 const Koa = require('koa');
+const serve = require('koa-static');
 
 const website = new Koa();
 
-website.use(ctx => {
-  ctx.body = 'Hello World';
-});
+website.use(serve(`${__dirname}/src`));
 
 website.listen(3000);
