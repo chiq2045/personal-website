@@ -4,7 +4,9 @@
   "description": "A website to showcase my personal projects",
   "main": "website.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx grunt watch",
+    "start": "npx grunt build"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,7 @@
   },
   "homepage": "https://github.com/chiq2045/personal-website#readme",
   "dependencies": {
+    "grunt": "^1.0.4",
     "grunt-cli": "^1.3.2",
     "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-copy": "^1.0.0",

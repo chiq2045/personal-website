@@ -10,12 +10,14 @@ function tasks(grunt) {
         dest: 'build/'
       },
       vendor: {
-        files: {
-          src: ['node_modules/jquery/build/jquery.js'],
-          flatten: true,
-          expand: true,
-          dest: 'build/vendor/'
-        }
+        files: [
+          {
+            src: ['node_modules/jquery/build/jquery.js'],
+            flatten: true,
+            expand: true,
+            dest: 'build/vendor/'
+          }
+        ]
       }
     },
     clean: {
