@@ -6,7 +6,10 @@ function tasks(grunt) {
       main: {
         expand: true,
         flatten: true,
-        src: 'src/index.*',
+        src: [
+          'src/*.html',
+          'src/*.css'
+        ],
         dest: 'build/'
       },
       vendor: {

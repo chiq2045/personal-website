@@ -6,7 +6,10 @@
   --shadow-color: #c09f80;
 }
 
-.nav {
-  /* background-color: var(--nav-color); */
-  /* color: var(--nav-text-color); */
+nav {
+  background-color: var(--nav-color);
+}
+
+nav a {
+  color: var(--nav-text-color);
 }
