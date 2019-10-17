@@ -1,3 +1,15 @@
-body {
-  background-color: white;
+:root {
+  --header-color: #76323f;
+  --text-color: #565656;
+  --nav-color: royalblue;
+  --nav-text-color: aliceblue;
+  --shadow-color: #c09f80;
+}
+
+nav {
+  background-color: var(--nav-color);
+}
+
+nav a {
+  color: var(--nav-text-color);
 }
