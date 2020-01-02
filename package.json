@@ -40,6 +40,7 @@
     "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-watch": "^1.1.0",
+    "nodemon": "^2.0.2",
     "stylelint": "^11.0.0",
     "stylelint-config-recommended": "^3.0.0"
   }
