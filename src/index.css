@@ -1,15 +1,27 @@
-:root {
-  --header-color: #76323f;
-  --text-color: #565656;
-  --nav-color: royalblue;
-  --nav-text-color: aliceblue;
-  --shadow-color: #c09f80;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-nav {
-  background-color: var(--nav-color);
+body {
+  font-family: 'Raleway', sans-serif;
 }
 
-nav a {
-  color: var(--nav-text-color);
+section {
+  margin: auto auto;
+}
+
+.intro {
+  background-color: black;
+  color: aliceblue;
+}
+
+.skills {
+  background-color: none;
+  color: black;
+}
+
+.projects {
+  background-color: rebeccapurple;
+  color: white;
 }
